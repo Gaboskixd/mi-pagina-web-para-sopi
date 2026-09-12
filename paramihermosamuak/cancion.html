@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Una canción para ti 🎵</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">Para ti ♡</div>
+    <nav id="menu">
+      <a href="carta.html">Carta</a>
+      <a href="momentos.html">Momentos</a>
+      <a href="cosas.html">10 cosas</a>
+      <a href="magia.html">Magia</a>
+      <a href="cancion.html">Canción</a>
+      <a href="para-ti.html">Para ti</a>
+    </nav>
+    <button class="menu-movil" onclick="abrirMenu()">☰</button>
+  </header>
+
+  <main>
+    <section class="seccion cancion pagina-completa">
+      <div class="foto-tematica">
+        <img src="imagenes/Louis Tomlinson.jpg" alt="Imagen para la canción">
+      </div>
+      <div class="titulo claro">
+        <span>🎵 Nuestra cancion 🎵</span>
+        <h2>💙Silver Tongues💙</h2>
+        <p>La cancion con la que mas me siento identificado contigo, y la que mas aprecio desde que te conozco, lleva tu nombre y sioempre lo hara 💙</p>
+      </div>
+      <div class="audio-card">
+        <div class="disco">♫</div>
+        <h3>Silver Tongues</h3>
+        <audio controls>
+          <source src="audio/cancion.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="mini-indicador">6 / 7</div>
+    </section>
+  <div class="controles">
+    <button class="flecha atras" onclick="volver('twilight-flash.html')">← Atrás</button>
+    <button class="flecha siguiente" onclick="continuar('para-ti.html')">Continuar →</button>
+  </div>
+
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
